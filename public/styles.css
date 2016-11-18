@@ -1,3 +1,4 @@
 .jumbotron {
   background-image: url(../img/notebook.jpg);
+  background-size: cover;
 }
