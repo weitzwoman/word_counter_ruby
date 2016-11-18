@@ -7,7 +7,8 @@ get('/') do
   erb(:index)
 end
 
-get('/SOMETHING') do
-  @ = params.fetch('').()
-  erb(:)
+get('/counter-form') do
+  @input_word = params.fetch('input-word')
+  @input_sentence = params.fetch('input-sentence')
+  erb(:counter_output)
 end
