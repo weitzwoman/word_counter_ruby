@@ -6,8 +6,9 @@ set(:show_exceptions, false)
 describe('word counter', {:type => :feature}) do
   it("takes word input and sentence input to count frequency of word in sentence") do
     visit('/')
-    # select("Paper", :from => 'player1Input')
-    # click_button('One, Two, Go Play!')
-    # expect(page).to have_no_content("error")
+    fill_in('input_word', :with => "woods")
+    fill_in('input_sentence', :with => "are we out of the woods woods")
+    click_button('Count Word!')
+    expect(page).to have_content(2)
   end
 end

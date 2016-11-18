@@ -8,7 +8,8 @@ get('/') do
 end
 
 get('/counter-form') do
-  @input_word = params.fetch('input-word')
-  @input_sentence = params.fetch('input-sentence')
-  erb(:counter_output)
+  @input_word = params.fetch('input_word')
+  @input_sentence = params.fetch('input_sentence')
+  @counter_output = params.fetch('input_word').word_count(params.fetch('input_sentence'))
+  erb(:word_count_output)
 end
