@@ -6,7 +6,10 @@
 
 ## Specifications
 
-#
+#### Returns frequency count of the number of times a inputted word occurs in an inputted sentence
+Input1: woods
+Input2: are we out of the woods woods
+Output: 2
 
 # Setup/Installation Requirements
 
@@ -14,7 +17,7 @@
 
 ## Support and contact details
 
-_Contact us on Github at weitzwoman_
+_Contact me on Github at weitzwoman_
 
 ## Technologies Used
 
