@@ -6,12 +6,12 @@
 
 ## Specifications
 
-#### Returns frequency count of the number of times a inputted word occurs in an inputted sentence
-Input1: woods
-Input2: are we out of the woods woods
-Output: 2
+#### 1. Returns frequency count of the number of times a inputted word occurs in an inputted sentence
+* Input1: woods
+* Input2: are we out of the woods woods
+* Output: 2
 
-# Setup/Installation Requirements
+## Setup/Installation Requirements
 
 * _Works in any web browser. Published on [Heroku] ()_
 
